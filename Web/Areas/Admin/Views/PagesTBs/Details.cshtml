@@ -1,0 +1,64 @@
+﻿@model DomainClass.PagesTB
+
+@{
+    ViewData["Title"] = "جزیات";
+}
+
+<h2>جزیات</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShortDescription)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImageName)
+        </dt>
+        <dd>
+            <img class="thumbnail" style="max-width:250px" src="~/img/@Model.ImageName" />
+        </dd>
+        <hr />
+
+        <dt>
+            <i class="fa fa-calendar"></i>
+        </dt>
+        <dd>
+            @Utilitis.DateConvertor.DateConvertor.ToShamsi(Model.CreateDate)
+        </dd>
+        <hr />
+
+        <dt>
+            <i class="fa fa-eye"></i>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Visist)
+        </dd>
+        <hr />
+
+        <dt>
+          <i class="fa fa-heart"></i>
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Like)
+        </dd>
+        <hr />
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.PageID" class="btn btn-warning">ویرایش</a>
+    <a asp-action="Index">بازگشت به لیست</a>
+</div>

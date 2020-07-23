@@ -1,0 +1,126 @@
+﻿
+<!DOCTYPE html>
+<html class="no-js" dir="rtl" lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewData["Title"] - Web</title>
+
+    <base href="">
+    <meta name="googlebot" content="index,follow">
+    <meta name="robots" content="noodp,noydir">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <script src="/js/modernizr.js"></script>
+
+    <!-- Top Menu -->
+    <div class="top-menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-5">
+                    <ul>
+                        <li><a href=""><i class="fa fa-home"></i></a></li>
+                        <li><a href=""><i class="fa fa-question-circle"></i></a></li>
+                        <li><a href=""><i class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-7">
+                    <span>امروز : @Utilitis.DateConvertor.DateConvertor.ToShamsi(DateTime.Now)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Menu -->
+    <!-- header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="left-side">
+                        <h1><a href="">سایت خبری</a></h1>
+                        <h2> امیر حسین بادران</h2>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <form asp-action="Search" asp-controller="ShowNews" method="get" class="border-radius">
+                        <input class="border-radius" name="param" type="text" placeholder=" جستجو کنید ... ">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- menu -->
+    <nav class="main-menu">
+        <div class="container">
+            <span><i class="fa fa-th-list"></i></span>
+            <ul>
+                <li><a href=""> صفحه اصلی </a></li>
+                <li>
+                    <span>گروه های خبری</span>
+                    <ul>
+                        <partial name="_ShowGroupPartialView" />
+                    </ul>
+                </li>
+
+            </ul>
+            <partial name="_LoginPartial" />
+
+        </div>
+
+    </nav>
+    <!-- End menu -->
+
+    <div class="container margin-top-30">
+        <div class="row">
+
+            <aside class="col-md-4 col-sm-12 col-xs-12 pull-right">
+
+                @await Component.InvokeAsync("ShowGroupComponent")
+                <!-- most views news -->
+               @await Component.InvokeAsync("ShowTopNewsComponent")
+                <!-- end most views news -->
+                @await Component.InvokeAsync("ShowMostPagesComponent")
+            </aside>
+
+
+            <div class="col-md-8 col-sm-12 col-xs-12 ">
+
+               @RenderBody()
+            </div>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/script.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

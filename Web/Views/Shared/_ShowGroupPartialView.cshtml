@@ -1,0 +1,6 @@
+﻿@inject Services.Repositorys.IGroupRepository _groupRepository
+
+    @foreach  (var item in _groupRepository.GetAllgroups())
+    {
+        <li><a href="/Archive/@item.GroupID">@item.Title</a></li>
+    }

@@ -1,0 +1,16 @@
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\Services.dll
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\Services.pdb
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\DL.dll
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\DomainClass.dll
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\ViewModels.dll
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\DL.pdb
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\DomainClass.pdb
+C:\Users\Amir Hossin\Desktop\News_App\Services\bin\Debug\netcoreapp3.1\ViewModels.pdb
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.csprojAssemblyReference.cache
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.csproj.CopyComplete
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.dll
+C:\Users\Amir Hossin\Desktop\News_App\Services\obj\Debug\netcoreapp3.1\Services.pdb

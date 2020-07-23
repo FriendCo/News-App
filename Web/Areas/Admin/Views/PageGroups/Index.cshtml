@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DomainClass.PageGroups>
+
+@{
+    ViewData["Title"] = "گروه های خبری";
+}
+
+<p>
+    <a asp-action="Create" class="btn btn-primary pull-right"><i class="fa fa-newspaper-o"></i></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.GroupID" class="btn btn-warning"><i class="fa fa-edit"></i></a> 
+                <a asp-action="Details" asp-route-id="@item.GroupID" class="btn btn-info"><i class="fa fa-info"></i></a> 
+                <a asp-action="Delete" asp-route-id="@item.GroupID" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

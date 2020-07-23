@@ -1,0 +1,9 @@
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\net5.0\DL.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\net5.0\DL.dll
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\net5.0\DL.pdb
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\net5.0\DL.csprojAssemblyReference.cache
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\net5.0\DL.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\net5.0\DL.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\net5.0\DL.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\net5.0\DL.dll
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\net5.0\DL.pdb

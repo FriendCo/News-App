@@ -1,0 +1,17 @@
+﻿@model IEnumerable<DomainClass.PagesTB>
+
+    <section class="last-news-side border-radius">
+        <header><i class="icons icon-star"></i> <h3> پربازدیدترین اخبار </h3></header>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <img class="border-radius" src="~/img/@item.ImageName">
+                    <h2> <a href="/ShowNews/@item.PageID">@item.ShortDescription</a></h2>
+                    <span>بازدید : @item.Visist</span>
+                    <span>پسند : @item.Like</span>
+                    <span>انتشار : @Utilitis.DateConvertor.DateConvertor.ToShamsi(item.CreateDate)</span>
+                </li>
+            }
+        </ul>
+    </section>

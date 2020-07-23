@@ -1,0 +1,71 @@
+﻿@model IEnumerable<DomainClass.PagesTB>
+
+@{
+    ViewData["Title"] = "مدیریت خبر ها";
+}
+
+
+<p>
+    <a asp-action="Create" class="btn btn-primary pull-right"><i class="fa fa-newspaper-o"></i></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <i class="fa fa-file-image-o"></i>
+            </th>
+            <th>
+              <i class="fa fa-text-width"></i>
+            </th>
+            <th>
+                <i class="fa fa-audio-description"></i>
+            </th>
+         
+            <th>
+             
+              <i class="fa fa-calendar"></i>
+            </th>
+            <th>
+                <i class="fa fa-eye"></i>
+            </th>
+            <th>
+                <i class="fa fa-heart"></i>
+            </th>
+            <th>
+                <i class="fa fa-hand-grab-o"></i>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               <img class="thumbnail" style="max-width:150px" src="~/img/@item.ImageName" alt="@item.Title" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShortDescription)
+            </td>
+            <td>
+                @Utilitis.DateConvertor.DateConvertor.ToShamsi(item.CreateDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Visist)
+             
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Like)
+               
+            </td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PageID" class="btn btn-warning"><i class="fa fa-edit"></i></a> 
+                <a asp-action="Details" asp-route-id="@item.PageID" class="btn btn-info"><i class="fa fa-info"></i></a> 
+                <a asp-action="Delete" asp-route-id="@item.PageID" class="btn btn-danger"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

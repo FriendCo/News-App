@@ -1,0 +1,8 @@
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\bin\Debug\netcoreapp3.1\DomainClass.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\bin\Debug\netcoreapp3.1\DomainClass.dll
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\bin\Debug\netcoreapp3.1\DomainClass.pdb
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\obj\Debug\netcoreapp3.1\DomainClass.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\obj\Debug\netcoreapp3.1\DomainClass.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\obj\Debug\netcoreapp3.1\DomainClass.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\obj\Debug\netcoreapp3.1\DomainClass.dll
+C:\Users\Amir Hossin\Desktop\News_App\DomainClass\obj\Debug\netcoreapp3.1\DomainClass.pdb

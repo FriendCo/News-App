@@ -1,0 +1,8 @@
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\bin\Debug\netcoreapp3.1\ViewModels.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\bin\Debug\netcoreapp3.1\ViewModels.dll
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\bin\Debug\netcoreapp3.1\ViewModels.pdb
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\obj\Debug\netcoreapp3.1\ViewModels.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\obj\Debug\netcoreapp3.1\ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\obj\Debug\netcoreapp3.1\ViewModels.dll
+C:\Users\Amir Hossin\Desktop\News_App\ViewModles\obj\Debug\netcoreapp3.1\ViewModels.pdb

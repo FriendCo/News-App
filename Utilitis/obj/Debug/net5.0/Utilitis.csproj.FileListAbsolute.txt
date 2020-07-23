@@ -1,0 +1,9 @@
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\bin\Debug\net5.0\Utilitis.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\bin\Debug\net5.0\Utilitis.dll
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\bin\Debug\net5.0\Utilitis.pdb
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\net5.0\Utilitis.csprojAssemblyReference.cache
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\net5.0\Utilitis.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\net5.0\Utilitis.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\net5.0\Utilitis.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\net5.0\Utilitis.dll
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\net5.0\Utilitis.pdb

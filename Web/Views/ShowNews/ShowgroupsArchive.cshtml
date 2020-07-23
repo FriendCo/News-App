@@ -1,0 +1,32 @@
+﻿@model IEnumerable<DomainClass.PagesTB>
+@{ 
+    ViewData["Title"] = "ارشیو خبر ها";
+}
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 pull-left">
+
+   
+
+    <!-- last news -->
+    <section class="last-news-section border-radius">
+        <header><i class="icons icon-doc-2"></i>  <h3> آرشیو خبر ها</h3> </header>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li>
+                    <img class="border-radius" src="~/img/@item.ImageName">
+                    <h2 ><a href="/showNews/@item.PageID">@item.Title </a></h2>
+                    <p>
+                        @item.ShortDescription
+                    </p>
+                    <span><i class="fa fa-calendar"></i> انتشار : @Utilitis.DateConvertor.DateConvertor.ToShamsi(item.CreateDate)</span>
+                    <span>بازدید : @item.Visist</span>
+                    <span>پسند : @item.Like</span>
+                </li>
+            }
+
+        </ul>
+    </section>
+    <!-- End last news -->
+</div>

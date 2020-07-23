@@ -1,0 +1,15 @@
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DL.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DL.runtimeconfig.json
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DL.runtimeconfig.dev.json
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DL.dll
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DL.pdb
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DomainClass.dll
+C:\Users\Amir Hossin\Desktop\News_App\DL\bin\Debug\netcoreapp3.1\DomainClass.pdb
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.csprojAssemblyReference.cache
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.csproj.CopyComplete
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.dll
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.pdb
+C:\Users\Amir Hossin\Desktop\News_App\DL\obj\Debug\netcoreapp3.1\DL.genruntimeconfig.cache

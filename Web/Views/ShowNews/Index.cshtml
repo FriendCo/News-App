@@ -1,0 +1,31 @@
+﻿ @model DomainClass.PagesTB
+@{ 
+    ViewData["Title"] = "مشاهده خبر";
+}
+     <div class="col-md-12 col-sm-12 col-xs-12">
+
+         <ul class="breadcrumb">
+             <li class="breadcrumb-item"><a href="/ShowNews/@Model.PageID"> @Model.Title</a></li>
+           
+         </ul>
+
+         <section class="single-news border-radius">
+             <h4><i class="fa fa-eye"></i> : @Model.Visist</h4>
+             <h4><i class="fa fa-heart"></i> : @Model.Like</h4>
+             <form>
+                 <span>پسند</span>
+                 <a href="/Like/@Model.PageID"><i class="fa fa-heart-o"></i></a>
+             </form>
+             <span> <i class="fa fa-calendar"></i> انتشار : @Utilitis.DateConvertor.DateConvertor.ToShamsi(Model.CreateDate)</span>
+             <article>
+                 <img src="~/img/@Model.ImageName" class="thumbnail" style="max-width:500px" />
+                 <p>
+                     @Model.ShortDescription
+                 </p>
+                 <hr />
+                 <p>
+                     @Model.Text
+                 </p>
+             </article>
+         </section>
+     </div>

@@ -1,0 +1,8 @@
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\bin\Debug\netcoreapp3.1\Utilitis.deps.json
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\bin\Debug\netcoreapp3.1\Utilitis.dll
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\bin\Debug\netcoreapp3.1\Utilitis.pdb
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\netcoreapp3.1\Utilitis.AssemblyInfoInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\netcoreapp3.1\Utilitis.AssemblyInfo.cs
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\netcoreapp3.1\Utilitis.csproj.CoreCompileInputs.cache
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\netcoreapp3.1\Utilitis.dll
+C:\Users\Amir Hossin\Desktop\News_App\Utilitis\obj\Debug\netcoreapp3.1\Utilitis.pdb

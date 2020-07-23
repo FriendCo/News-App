@@ -1,0 +1,12 @@
+﻿@model IEnumerable<ViewModels.Pages.GroupVM>
+
+    <section class="category-section border-radius">
+        <header><i class="fa fa-folder-open-o"></i> <h3> دسته بندی ها </h3></header>
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="/Archive/@item.GroupId"> @item.Title <span>@item.Count</span></a></li>
+            }
+
+        </ul>
+    </section>
